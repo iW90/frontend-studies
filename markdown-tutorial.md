@@ -54,9 +54,9 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Listas não-ordenadas 	| \-item<br>\-item  	| <ul><li>item</li><li>item</li></ul> 	|
 | Subitens 	| 1. Item 1<br>1. subitem 1<br>2. subitem 2<br>2. Item 2<br>\-subitem<br>\-subitem  	| <ol><li>item 1<ol><li>subitem i</li><li>subitem ii</li></ol></li><li>item 2 <ul><li>item</li><li>item</li></ul></li></ol> 	|
 | Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| [Veja aqui](#lista-de-tarefas)	|
-| Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  ```Conteúdo``` 	|
+| Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  [Veja aqui](#blocos-de-código) 	|
 | Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
-| Preformatação 	| Comece cada linha com dois espaços ou mais 	| [Veja aqui](#pre)  	|
+| Preformatação 	| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comece cada linha com dois espaços ou mais&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| [Veja aqui](#pre)  	|
 | Linha horizontal 	| \-\-\- ou \_\_\_ ou \=\=\= 	| <hr> 	|
 | Imagens 	| \![Alt\](/link.png) 	| ![github-icon](/imagens/github-icon.png) 	|
 | Imagens com legenda 	| \![Alt\](/link.png "legenda") 	| ![github-icon](/imagens/github-icon.png "Github Icon") 	|
