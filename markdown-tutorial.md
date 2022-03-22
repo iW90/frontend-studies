@@ -3,11 +3,12 @@ FORMATAÇÃO MARKDOWN
 
 ## Índice
 
-1. [Títulos](#titulo)
+1. [Títulos](#1)
 2. [Parágrafos]{#2}
     1. [Indentação]{#2-1}
 
-## Títulos (#titulo)
+<span id='1'/>
+## Títulos
 
 Utiliza-se o símbolo #:
 
@@ -234,3 +235,30 @@ palavra[^bignote]
 ### Link por ID
 
 `[Texto linkado](#custom-id)`
+
+___
+
+## Tabelas
+
+Título1 | Título2
+--------- | ------
+A     | 1
+B    | 2
+C    | 3
+D  | 4
+
+### Alinhando itens da tabela
+
+Título1 | Título2
+:---------: | ------:
+A     | 1
+B    | 2
+C    | 3
+D  | 4
+
+
+## Task List
+- [ ] A
+- [ ] B
+- [ ] C
+- [x] D
