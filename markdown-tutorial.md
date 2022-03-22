@@ -365,7 +365,7 @@ D  | 4
 
 ## Emojis
 
-Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](https://www.webfx.com/tools/emoji-cheat-sheet/) 
+Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](https://www.webfx.com/tools/emoji-cheat-sheet/) :smile:
 
 
 <span id='footnotes'/>
