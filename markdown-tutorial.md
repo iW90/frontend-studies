@@ -3,11 +3,11 @@ FORMATAÇÃO MARKDOWN
 
 ## Índice
 
-1. [Títulos]{#titulo}
+1. [Títulos](#titulo)
 2. [Parágrafos]{#2}
     1. [Indentação]{#2-1}
 
-## Títulos {#titulo}
+## Títulos (#titulo)
 
 Utiliza-se o símbolo #:
 
