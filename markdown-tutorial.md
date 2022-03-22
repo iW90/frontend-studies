@@ -23,6 +23,8 @@ Basta separar o texto por uma linha em branco.
 * Não deixe espaços em branco antes do texto.
 
 
+
+
 ### Indentação
 
 Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador aceite HTML, utilizamos `&nbsp;` algumas vezes antes do texto. Caso contrário, não será possível.
@@ -41,6 +43,8 @@ Cria um comentário que aparece somente no código fonte.
 
 ## Negrito e Itálico
 
+
+
 ### Negrito 
 
 Coloque o conteúdo entre \*\*:
@@ -48,11 +52,15 @@ Coloque o conteúdo entre \*\*:
 Texto em \*\***negrito**\*\*
 
 
+
+
 ### Itálico
 
 Coloque o conteúdo entre \*:
 
 Texto em \**itálico*\*
+
+
 
 
 ### Ambos
@@ -69,6 +77,8 @@ Utilize `>` seguido de espaço no início do texto:
 > `> Citação`
 
 
+
+
 ### Blockquotes aninhados
 
 Utilize mais de um `>` (com apenas um espaço após o último) no início do texto:
@@ -77,6 +87,8 @@ Utilize mais de um `>` (com apenas um espaço após o último) no início do tex
 
 
 ## Listas
+
+
 
 ### Listas ordenadas
 
@@ -87,6 +99,8 @@ Utilize números seguidos de ponto:
 3. `3. Item 3`
 
 
+
+
 ### Listas não-ordenadas
 
 É possível utilizar `-`, `*` ou `+` no início do texto:
@@ -94,6 +108,8 @@ Utilize números seguidos de ponto:
 - `- Item`
 - `- Item`
 - `- Item`
+
+
 
 
 ### Subitens
@@ -108,10 +124,13 @@ Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou nã
     - `- Item`
 
 
+
+
 ### Listas de Definição
 Utilize `:` antes da definição do termo:
 
 Primeiro Termo
+
 : `: Definição do termo`
 
 
@@ -129,11 +148,13 @@ Coloque o conteúdo entre \`\`\`:
 ```
 
 
+
+
 ### Code
 
 Coloque o conteúdo entre `:
 
-\``conteúdo`\`
+` ``conteúdo`` `
 
 
 ## Linhas horizontais
@@ -150,6 +171,8 @@ Utilize o modelo abaixo:
 `![Alt](/link.png)`
 
 
+
+
 ### Imagens com legenda
 
 Utilize o modelo abaixo:
@@ -164,6 +187,8 @@ Utilize o modelo abaixo:
 `[Texto Linkado](/link)`
 
 
+
+
 ### Link com legenda
 
 Utilize o modelo abaixo:
@@ -172,11 +197,13 @@ Utilize o modelo abaixo:
 
 
 
+
 ### Email e URL
 
 Para transformar um email ou URL clicável:
 
 `<link>` ou `<email@email.com>`
+
 
 
 
@@ -231,6 +258,8 @@ palavra[^bignote]
 ```
 
 
+
+
 ### Sobrescrito
 
 Utilize um `^` antes e depois do conteúdo.
@@ -241,6 +270,8 @@ Utilize um `^` antes e depois do conteúdo.
 ## IDs nos Títulos
 
 `### Título {#custom-id}`
+
+
 
 
 ### Link por ID
