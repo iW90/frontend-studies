@@ -376,12 +376,12 @@ Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](http
 
 ## Notas de Rodapé
 
-Similar à lista de links, mas o link aparecerá sobrescrito¹:
+Similar à lista de links, mas o link aparecerá sobrescrito[^bignote]:
 
 ```
 palavra[^1]
 [^1]: Texto da footnote.
 ```
 
-palavra[^bignote]
-[^bignote]: Texto da anotação.
+
+[^bignote]: A anotação de rodapé aparece somente no final do documento, mesmo que `[^1]: Nota` seja declarada no meio.
