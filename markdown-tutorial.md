@@ -4,15 +4,15 @@ FORMATAÇÃO MARKDOWN
 ## Índice
 
 - [Títulos](#titulos)
-- [Parágrafos]{#paragrafos}
-    - [Indentação]{#indent}
-- [Formatação de Texto]{#format}
-    - [Negrito]{#b}
-    - [Itálico]{#i}
-    - [Negrito e Itálico]{#bi}
-    - [Rasurado]{#s}
+- [Parágrafos](#paragrafos)
+    - [Indentação](#indent)
+- [Formatação de Texto](#format)
+    - [Negrito](#b)
+    - [Itálico](#i)
+    - [Negrito e Itálico](#b)
+    - [Rasurado](#s)
 - [Citações](#blockquote)
-    - [Citações aninhadas[(#quotenested)
+    - [Citações aninhadas](#quotenested)
 - [Listas](#listas)
     - [Listas ordenadas](#ol)
     - [Listas não-ordenadas](#ul)
