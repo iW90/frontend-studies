@@ -38,7 +38,7 @@ FORMATAÇÃO MARKDOWN
 
 ## Títulos
 
-Utiliza-se o símbolo #:
+Utiliza-se o símbolo `# `:
 
 ```
 # h1
@@ -48,8 +48,6 @@ Utiliza-se o símbolo #:
 ##### h5
 ###### h6
 ```
-
-* Por convenção e para evitar conflitos, é necessário ter um espaço entre o símbolo # e o texto.
 
 
 <span id='paragrafos'/>
@@ -67,7 +65,8 @@ Para pular mais de uma linha é necessário deixar dois espaços em cada linha e
 
 ### Indentação
 
-Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador aceite HTML, utilizamos `&nbsp;` algumas vezes antes do texto. Caso contrário, não será possível.
+Utilizar espaços antes do texto pode causar conflitos. Utilizamos `&nbsp;` (equivale a 1 espaço) antes do texto. Para um espaçamento maior, repetimos o comando.
+
 &nbsp;&nbsp;&nbsp;&nbsp;Isso é um parágrafo indentado.
 
 
@@ -201,9 +200,11 @@ Coloque o conteúdo entre \`\`\`:
 
 ### Code
 
-Coloque o conteúdo entre `:
+Coloque o conteúdo entre ` :
 
-` ``conteúdo`` `
+```
+`conteúdo`
+```
 
 
 <span id='hline'/>
@@ -211,6 +212,8 @@ Coloque o conteúdo entre `:
 ## Linhas horizontais
 
 Utilize um desses `***`, `---` ou `___`:
+
+___
 
 * Por convenção, deixe linhas em branco em cima e embaixo.
 
@@ -223,6 +226,8 @@ Utilize o modelo abaixo:
 
 `![Alt](/link.png)`
 
+![github-icon](/imagens/github-icon.png)
+
 
 <span id='img-legenda'/>
 
@@ -231,6 +236,8 @@ Utilize o modelo abaixo:
 Utilize o modelo abaixo:
 
 `![Alt](/link.png "legenda")`
+
+![github-icon](/imagens/github-icon.png "Ícone do Github")
 
 
 <span id='links'/>
@@ -275,13 +282,13 @@ São duas partes, a primeira é:
 
 `[texto][n]`
 
-`[texto][2]`
+[texto][2]
 
 Onde `n` é o número que se referencia ao item da lista na segunda parte:
 
 `[n]: link`
 
-`[2]: link2 "título"`
+[2]: #reference "título"
 
 
 <span id='escape'/>
@@ -354,6 +361,13 @@ C    | 3
 D  | 4
 
 
+<span id='emoji'/>
+
+## Emojis
+
+Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](https://www.webfx.com/tools/emoji-cheat-sheet/) 
+
+
 <span id='footnotes'/>
 
 ## Notas de Rodapé
@@ -366,4 +380,4 @@ palavra[^1]
 ```
 
 palavra[^bignote]
-[^bignote]: Texto da bignote.
+[^bignote]: Texto da anotação.
