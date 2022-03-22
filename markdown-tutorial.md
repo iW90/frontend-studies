@@ -1,7 +1,14 @@
 FORMATAÇÃO MARKDOWN
 ===
 
-## Títulos
+## Índice
+
+1. [Títulos]{#1}
+2. [Parágrafos]{#2}
+    1. [Indentação]{#2-1}
+
+## Títulos {#1}
+
 Utiliza-se o símbolo #:
 
 ```
@@ -16,34 +23,20 @@ Utiliza-se o símbolo #:
 * Por convenção e para evitar conflitos, é necessário ter um espaço entre o símbolo # e o texto.
 
 
-## Parágrafos
+## Parágrafos {#2}
 
 Basta separar o texto por uma linha em branco.
 
 * Não deixe espaços em branco antes do texto.
 
 
-
-
-### Indentação
+### Indentação {#2-1}
 
 Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador aceite HTML, utilizamos `&nbsp;` algumas vezes antes do texto. Caso contrário, não será possível.
 &nbsp;&nbsp;&nbsp;&nbsp;Isso é um parágrafo indentado.
 
 
-## Comentários
-
-Cria um comentário que aparece somente no código fonte.
-
-```
-[ Conteúdo ]
-```
-[exemplo]
-
-
 ## Negrito e Itálico
-
-
 
 ### Negrito 
 
@@ -52,15 +45,11 @@ Coloque o conteúdo entre \*\*:
 Texto em \*\***negrito**\*\*
 
 
-
-
 ### Itálico
 
 Coloque o conteúdo entre \*:
 
 Texto em \**itálico*\*
-
-
 
 
 ### Ambos
@@ -77,8 +66,6 @@ Utilize `>` seguido de espaço no início do texto:
 > `> Citação`
 
 
-
-
 ### Blockquotes aninhados
 
 Utilize mais de um `>` (com apenas um espaço após o último) no início do texto:
@@ -87,8 +74,6 @@ Utilize mais de um `>` (com apenas um espaço após o último) no início do tex
 
 
 ## Listas
-
-
 
 ### Listas ordenadas
 
@@ -99,8 +84,6 @@ Utilize números seguidos de ponto:
 3. `3. Item 3`
 
 
-
-
 ### Listas não-ordenadas
 
 É possível utilizar `-`, `*` ou `+` no início do texto:
@@ -108,8 +91,6 @@ Utilize números seguidos de ponto:
 - `- Item`
 - `- Item`
 - `- Item`
-
-
 
 
 ### Subitens
@@ -122,8 +103,6 @@ Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou nã
 2. `2. Item 2`
     - `- Item`
     - `- Item`
-
-
 
 
 ### Listas de Definição
@@ -148,8 +127,6 @@ Coloque o conteúdo entre \`\`\`:
 ```
 
 
-
-
 ### Code
 
 Coloque o conteúdo entre `:
@@ -171,8 +148,6 @@ Utilize o modelo abaixo:
 `![Alt](/link.png)`
 
 
-
-
 ### Imagens com legenda
 
 Utilize o modelo abaixo:
@@ -187,8 +162,6 @@ Utilize o modelo abaixo:
 `[Texto Linkado](/link)`
 
 
-
-
 ### Link com legenda
 
 Utilize o modelo abaixo:
@@ -196,15 +169,11 @@ Utilize o modelo abaixo:
 `[Texto Linkado](/link "legenda")`
 
 
-
-
 ### Email e URL
 
 Para transformar um email ou URL clicável:
 
 `<link>` ou `<email@email.com>`
-
-
 
 
 ### Lista de links
@@ -252,19 +221,9 @@ Similar à lista de links, mas o link aparecerá sobrescrito¹:
 palavra[^1]
 [^1]: Texto da footnote.
 ```
-```
+
 palavra[^bignote]
 [^bignote]: Texto da bignote.
-```
-
-
-
-
-### Sobrescrito
-
-Utilize um `^` antes e depois do conteúdo.
-
-\^ ^2
 
 
 ## IDs nos Títulos
@@ -272,17 +231,6 @@ Utilize um `^` antes e depois do conteúdo.
 `### Título {#custom-id}`
 
 
-
-
 ### Link por ID
 
 `[Texto linkado](#custom-id)`
-
-
-
-___
-
-
-## Mais aqui:
-
-* <https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables>
