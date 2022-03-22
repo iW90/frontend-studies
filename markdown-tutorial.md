@@ -28,6 +28,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
     - [Link com legenda](#links-legenda)
     - [Link por ID](#id-link)
     - [Email e URL](#clickable)
+    - [Imagem com link](img-link)
     - [Lista de Referências](#reference)
 - [Escape Characters](#escape)
 - [Tabelas](#table)
@@ -282,7 +283,19 @@ Para transformar um email ou URL clicável:
 * No caso do email, torna-se equivalente a `<mailto:exemplo@email.com>`. Será encaminhado a alguma plataforma de envio de emails (Outlook, Gmail, etc).
 
 
+<span id='img-link'/>
+
+### Imagem com link
+
+Utilize o código abaixo
+
+`[![Alt](/link.png)](/link)`
+
+[![github-icon](/imagens/github-icon.png)](#img-link)
+
+
 <span id='reference'/>
+
 
 ### Lista de Referências
 
