@@ -37,6 +37,44 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 - [Notas de Rodapé](#footnotes)
 
 
+
+
+| Formato        | Sintaxe      | Exemplo |
+| :------:|:-----:|:-----|
+| Títulos 	| \#, \##, \###, \####, \#####, \###### (do h1 ao h6) 	|  <h3>Título h3</h3>	|
+| Parágrafos  	| Espaço duplo + `Enter`	| <br>  	|
+| Negrito  	| \*\*Conteúdo\*\* 	| **Conteúdo** 	|
+| Itálico  	| \*Conteúdo\* 	| *Conteúdo* 	|
+| Negrito e itálico  	| \*\*\*Conteúdo\*\*\* 	| ***Conteúdo*** 	|
+| Rasurado 	| &#126;&#126;Conteúdo&#126;&#126; 	| ~~Conteúdo~~ 	|
+| Citações 	| \> Conteúdo 	|  <blockquote>Conteúdo</blockquote> 	|
+| Citações aninhadas 	| \>\> Conteúdo 	|  <blockquote><blockquote>Conteúdo</blockquote></blockquote> 	|
+| Listas ordenadas  	| 1. item 1<br>2. item 2 	| <ol><li>item 1</li><li>item 2</li></ol>  	|
+| Listas não-ordenadas 	| \-item<br>\-item  	| <ul><li>item</li><li>item</li></ul> 	|
+| Subitens 	| 1. Item 1<br>1. subitem 1<br>2. subitem 2<br>2. Item 2<br>\-subitem<br>\-subitem  	| <ol><li>item 1<ol><li>subitem 1</li><li>subitem 2</li></ol></li><li>item 2 <ul><li>item</li><li>item</li></ul></li></ol> 	|
+| Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| <input type="checkbox" disabled> A <br><input type="checkbox" checked disabled> B	|
+| Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  ```Conteúdo``` 	|
+| Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
+| Preformatado 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
+| Linha horizontal 	| \-\-\- ou \_\_\_ ou \=\=\= 	| <hr> 	|
+| Imagens 	| \![Alt\](/link.png) 	| ![github-icon](/imagens/github-icon.png) 	|
+| Imagens com legenda 	| \![Alt\](/link.png "legenda") 	| ![github-icon](/imagens/github-icon.png "Github Icon") 	|
+| Links 	| \[Conteúdo\](/link) 	| [Conteúdo](#links) 	|
+| Links com legenda 	| \[Conteúdo\](/link "legenda") 	| [Conteúdo](#link-com-legenda "Conteúdo") 	|
+| Links por ID 	| \[Conteúdo\](\#custom-id) 	| [Conteúdo](#link-por-id) 	|
+| Email e URL 	| \<exemplo@email.com\> 	| <exemplo@email.com> 	|
+| Imagem com link 	| \[\![Legenda\](url da img)\](url para a pagina) 	|  [![github-icon](/imagens/github-icon.png)](#img-link) 	|
+| Lista de referência  	| \[Conteúdo]\[1] <br> \[1]: link 	| [Veja aqui](#lista-de-referências)  	|
+| Escape characters  	| Barra invertida antes do símbolo	| [Veja aqui](#escape-characters)  	|
+| Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \| \|\----------\|\:\----------\:\|----------\:\| \| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
+| Notas de rodapé  	| Conteúdo\[^1\]   \[^1\]: Nota 	| [Veja aqui](#notas-de-rodapé)  	|
+
+  
+
+  
+
+  
+
 <span id='titulos'/>
 
 ## Títulos
@@ -111,7 +149,7 @@ Texto em \*\*\****negrito e itálico***\*\*\*
 
 Coloque entre `~~`:
 
-Texto ~~rasurado~~
+Texto &#126;&#126;~~rasurado~~&#126;&#126;
 
 
 <span id='blockquote'/>
