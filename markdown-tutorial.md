@@ -81,7 +81,7 @@ Utilizar espaços antes do texto pode causar conflitos. Utilizamos `&nbsp;` (equ
 
 ### Negrito 
 
-Coloque o conteúdo entre \*\*:
+Coloque o conteúdo entre `**`:
 
 Texto em \*\***negrito**\*\*
 
