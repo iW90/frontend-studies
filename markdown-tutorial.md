@@ -52,7 +52,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Citações aninhadas 	| \>\> Conteúdo 	|  <blockquote><blockquote>Conteúdo</blockquote></blockquote> 	|
 | Listas ordenadas  	| 1. item 1<br>2. item 2 	| <ol><li>item 1</li><li>item 2</li></ol>  	|
 | Listas não-ordenadas 	| \-item<br>\-item  	| <ul><li>item</li><li>item</li></ul> 	|
-| Subitens 	| 1. Item 1<br>1. subitem 1<br>2. subitem 2<br>2. Item 2<br>\-subitem<br>\-subitem  	| <ol><li>item 1<ol><li>subitem 1</li><li>subitem 2</li></ol></li><li>item 2 <ul><li>item</li><li>item</li></ul></li></ol> 	|
+| Subitens 	| 1. Item 1<br>1. subitem 1<br>2. subitem 2<br>2. Item 2<br>\-subitem<br>\-subitem  	| <ol><li>item 1<ol><li>subitem i</li><li>subitem ii</li></ol></li><li>item 2 <ul><li>item</li><li>item</li></ul></li></ol> 	|
 | Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| <input type="checkbox" disabled> A <br><input type="checkbox" checked disabled> B	|
 | Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  ```Conteúdo``` 	|
 | Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
