@@ -43,7 +43,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Formato        | Sintaxe      | Exemplo |
 | :------:|:-----:|:-----|
 | Títulos 	| \# h1<br>\## h2<br>\### h3<br>\#### h4<br>\##### h5<br>\###### h6 	|  <h1>Título h1</h1><br><h2>Título h2</h2><br><h3>Título h3</h3><br><h4>Título h4</h4><br><h5>Título h5</h5><br><h6>Título h6</h6>	|
-| Parágrafos  	| Pular duas linhas	| Linha1<br><br>Linha2  	|
+| Parágrafos  	| Deixar linha em branco entre as frases	| Linha1<br><br>Linha2  	|
 | Negrito  	| \*\*Conteúdo\*\* 	| **Conteúdo** 	|
 | Itálico  	| \*Conteúdo\* 	| *Conteúdo* 	|
 | Negrito e itálico  	| \*\*\*Conteúdo\*\*\* 	| ***Conteúdo*** 	|
