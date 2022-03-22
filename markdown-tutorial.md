@@ -279,6 +279,8 @@ Para transformar um email ou URL clicável:
 
 <exemplo@email.com>
 
+* No caso do email, torna-se equivalente a `<mailto:exemplo@email.com>`. Será encaminhado a alguma plataforma de envio de emails (Outlook, Gmail, etc).
+
 
 <span id='reference'/>
 
