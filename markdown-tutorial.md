@@ -9,7 +9,7 @@ FORMATAÇÃO MARKDOWN
 - [Formatação de Texto](#format)
     - [Negrito](#b)
     - [Itálico](#i)
-    - [Negrito e Itálico](#b)
+    - [Negrito e Itálico](#bi)
     - [Rasurado](#s)
 - [Citações](#blockquote)
     - [Citações aninhadas](#quotenested)
@@ -63,7 +63,7 @@ Basta separar o texto por uma linha em branco.
 Para pular mais de uma linha é necessário deixar dois espaços em cada linha em branco.
 
 
-<span id='paragrafos'/>
+<span id='indent'/>
 
 ### Indentação
 
@@ -108,6 +108,7 @@ Texto em \*\*\****negrito e itálico***\*\*\*
 ### Rasurado
 
 Coloque entre `~~`:
+
 Texto ~~rasurado~~
 
 
@@ -169,7 +170,7 @@ Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou nã
     - `- Item`
 
 
-<span id='task'/>
+<span id='tasks'/>
 
 ### Lista de Tarefas
 Utilize `-[ ]` antes do item, e `-[x]` para um item checked:
@@ -307,21 +308,6 @@ Exemplos de alguns caracteres para dar escape:
 - \\
 
 
-<span id='footnotes'/>
-
-## Notas de Rodapé
-
-Similar à lista de links, mas o link aparecerá sobrescrito¹:
-
-```
-palavra[^1]
-[^1]: Texto da footnote.
-```
-
-palavra[^bignote]
-[^bignote]: Texto da bignote.
-
-
 <span id='table'/>
 
 ## Tabelas
@@ -366,3 +352,18 @@ A     | 1
 B    | 2
 C    | 3
 D  | 4
+
+
+<span id='footnotes'/>
+
+## Notas de Rodapé
+
+Similar à lista de links, mas o link aparecerá sobrescrito¹:
+
+```
+palavra[^1]
+[^1]: Texto da footnote.
+```
+
+palavra[^bignote]
+[^bignote]: Texto da bignote.
