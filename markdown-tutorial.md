@@ -31,6 +31,7 @@ FORMATAÇÃO MARKDOWN
 - [Escape Characters](#escape)
 - [Tabelas](#table)
     - [Alinhando itens da tabela](#align-cell)
+- [Emojis](#emoji)
 - [Notas de Rodapé](#footnotes)
 
 
@@ -366,6 +367,8 @@ D  | 4
 ## Emojis
 
 Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](https://www.webfx.com/tools/emoji-cheat-sheet/) :smile:
+
+`:smile:`
 
 
 <span id='footnotes'/>
