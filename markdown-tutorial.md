@@ -68,6 +68,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Lista de referência  	| \[Conteúdo]\[1] <br> \[1]: link 	| [Veja aqui](#lista-de-referências)  	|
 | Escape characters  	| Barra invertida antes do símbolo	| [Veja aqui](#escape-characters)  	|
 | Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \|<br>\|\----------\|\:\----------\:\|----------\:\|<br>\| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
+| Emojis  	| \:código-do-emoji\: 	| :smile:  	|
 | Notas de rodapé  	| Conteúdo\[^1\]   \[^1\]: Nota 	| [Veja aqui](#notas-de-rodapé)  	|
 
   
