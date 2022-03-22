@@ -29,9 +29,9 @@ FORMATAÇÃO MARKDOWN
     - [Email e URL](#clickable)
     - [Lista de Referências](#reference)
 - [Escape Characters](#escape)
-- [Notas de Rodapé](#footnotes)
 - [Tabelas](#table)
     - [Alinhando itens da tabela](#align-cell)
+- [Notas de Rodapé](#footnotes)
 
 
 <span id='titulos'/>
