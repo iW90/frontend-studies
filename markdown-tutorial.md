@@ -266,6 +266,8 @@ Utilize o modelo abaixo:
 
 `[Texto linkado](#custom-id)`
 
+* A ID é inserida com um recurso do HTML: `<span id='custom-id'/>` (sem tag de encerramento).
+
 
 <span id='clickable'/>
 
@@ -273,7 +275,9 @@ Utilize o modelo abaixo:
 
 Para transformar um email ou URL clicável:
 
-`<link>` ou `<email@email.com>`
+`<link>` ou `<exemplo@email.com>`
+
+<exemplo@email.com>
 
 
 <span id='reference'/>
