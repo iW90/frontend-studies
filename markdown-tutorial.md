@@ -21,6 +21,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
     - [Lista de Tarefas](#tasks)
 - [Blocos de Código](#codeblock)
     - [Code](#code)
+- [Preformatação](#pre)
 - [Linhas horizontais](#hline)
 - [Imagens](#img)
     - [Imagens com legenda](#img-legenda)
@@ -55,7 +56,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| <input type="checkbox" disabled> A <br><input type="checkbox" checked disabled> B	|
 | Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  ```Conteúdo``` 	|
 | Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
-| Preformatado 	| Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|   Comece cada linha com, dois espaços ou mais, faça o look do texto, e x a t a m e n t e, como, você, tipo i, s, t, o. 	|
+| Preformatado 	| Comece cada linha com dois espaços ou mais 	| [Veja aqui](#escape-characters)  	|
 | Linha horizontal 	| \-\-\- ou \_\_\_ ou \=\=\= 	| <hr> 	|
 | Imagens 	| \![Alt\](/link.png) 	| ![github-icon](/imagens/github-icon.png) 	|
 | Imagens com legenda 	| \![Alt\](/link.png "legenda") 	| ![github-icon](/imagens/github-icon.png "Github Icon") 	|
@@ -66,7 +67,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Imagem com link 	| \[\![Legenda\](url da img)\](url para a pagina) 	|  [![github-icon](/imagens/github-icon.png)](#img-link) 	|
 | Lista de referência  	| \[Conteúdo]\[1] <br> \[1]: link 	| [Veja aqui](#lista-de-referências)  	|
 | Escape characters  	| Barra invertida antes do símbolo	| [Veja aqui](#escape-characters)  	|
-| Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \| \|\----------\|\:\----------\:\|----------\:\| \| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
+| Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \|<br>\|\----------\|\:\----------\:\|----------\:\|<br>\| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
 | Notas de rodapé  	| Conteúdo\[^1\]   \[^1\]: Nota 	| [Veja aqui](#notas-de-rodapé)  	|
 
   
@@ -246,6 +247,16 @@ Coloque o conteúdo entre ` :
 ```
 `conteúdo`
 ```
+
+<span id='pre'/>
+
+## Preformatação
+
+Comece o conteúdo com dois espaços ou mais:
+
+    texto   pre-formatado
+     É similar ao bloco de código.
+        Interpreta todos os       espaços
 
 
 <span id='hline'/>
