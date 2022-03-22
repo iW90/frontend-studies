@@ -64,7 +64,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Links com legenda 	| \[Conteúdo\](/link "legenda") 	| [Conteúdo](#link-com-legenda "Conteúdo") 	|
 | Links por ID 	| \[Conteúdo\](\#custom-id) 	| [Conteúdo](#link-por-id) 	|
 | Email e URL 	| \<exemplo@email.com\> 	| <exemplo@email.com> 	|
-| Imagem com link 	| \[\![Legenda\](url da img)\](url para a pagina) 	|  [![github-icon](/imagens/github-icon.png)](#img-link) 	|
+| Imagem com link 	| \[\![Alt\](/link.png)\](/link) 	|  [![github-icon](/imagens/github-icon.png)](#img-link) 	|
 | Lista de referência  	| \[Conteúdo]\[1] <br> \[1]: link 	| [Veja aqui](#lista-de-referências)  	|
 | Escape characters  	| Barra invertida antes do símbolo	| [Veja aqui](#escape-characters)  	|
 | Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \|<br>\|\----------\|\:\----------\:\|----------\:\|<br>\| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
