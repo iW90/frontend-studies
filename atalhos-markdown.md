@@ -1,0 +1,178 @@
+FORMATAÇÃO MARKDOWN
+===
+
+## Títulos
+Utiliza-se o símbolo #.
+```
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+```
+* Por convenção e para evitar conflitos, é necessário ter um espaço entre o símbolo # e o texto.
+
+### Títulos sublinhados
+```
+    h1
+    ===
+```
+e
+```
+    h2
+    ---
+```
+
+## Parágrafos
+Basta separar o texto por uma linha em branco.
+* Não deixe espaços em branco antes do texto.
+
+### Indentação
+Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador aceite HTML, utilizamos `&nbsp;` algumas vezes antes do texto. Caso contrário, não será possível.
+&nbsp;&nbsp;&nbsp;&nbsp;Isso é um parágrafo indentado.
+
+## Comentários
+`[ Este texto aparecerá somente no código fonte, pois é um comentário. ]`
+
+## Negrito e Itálico
+### Negrito 
+Coloque o conteúdo entre \*\*.
+Texto em \*\***negrito**\*\*.
+
+### Itálico
+Coloque o conteúdo entre \*.
+Texto em \**itálico*\*.
+
+### Ambos
+Coloque o conteúdo entre \*\*\*.
+Texto em \*\*\****negrito e itálico***\*\*\*.
+
+## Blockquotes
+Utilize `> ` (com espaço) no início do texto.
+> \> Citação.
+
+### Blockquotes aninhados
+Utilize mais de um `>` (com apenas um espaço após o último) no início do texto.
+>> \>\> Citação aninhada.
+
+## Listas
+### Listas ordenadas
+Utilize números seguidos de ponto.
+1. `1. Item 1`
+2. `2. Item 2`
+3. `3. Item 3`
+
+### Listas não-ordenadas
+É possível utilizar `-`, `*` ou `+` no início do texto.
+- `- Item`
+- `- Item`
+- `- Item`
+
+### Subitens
+Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou não-ordenada.
+1. `1. Item 1`
+    1. `1. SubItem 1`
+    2. `2. Item 2`
+2. `2. Item 2`
+    - `- Item`
+    - `- Item`
+
+### Listas de Definição
+```
+Primeiro Termo
+: Definição do termo
+```
+
+## Code blocks
+Coloque o conteúdo entre \`\`\`.
+```
+    ```
+     <tag>
+        <tag2>
+        </tag2>
+    </tag>
+    ```
+```
+
+### Code
+Coloque o conteúdo entre `.
+\``conteúdo`\`
+
+## Linhas horizontais
+Utilize um desses `***`, `---` ou `___`.
+* Por convenção, deixe linhas em branco em cima e embaixo.
+
+## Imagens
+Utilize o modelo abaixo:
+`![Alt](/link.png)`
+
+### Imagens com legenda
+Utilize o modelo abaixo:
+`![Alt](/link.png "legenda")`
+
+## Links
+Utilize o modelo abaixo:
+`[Texto Linkado](/link)`
+
+### Link com legenda
+Utilize o modelo abaixo:
+`[Texto Linkado](/link "legenda")`
+
+### Email e URL
+Para transformar um email ou URL clicável:
+`<link>` ou `<email@email.com>`
+
+### Lista de links
+São duas partes, a primeira é:
+`[texto][n]`
+`[texto][2]`
+* n é o número que se referencia ao item da lista
+
+Segunda parte:
+`[n]: link`
+`[2]: link2 "título"`
+
+## Escape Characters
+Alguns caracteres são utilizados para comandos. Caso precise utilizá-los literalmente, adicione uma barra invertida antes `(\)`.
+Caracteres para dar escape:
+- \{\}
+- \(\)
+- \[\]
+- \<\>
+- \#
+- \.
+- \+
+- \-
+- \*
+- \_
+- \`
+- \!
+- \|
+- \\
+
+## Footnotes
+Similar à lista de links, mas o link aparecerá sobrescrito¹:
+```
+palavra[^1]
+[^1]: Texto da footnote.
+```
+```
+palavra[^bignote]
+[^bignote]: Texto da bignote.
+```
+
+### Sobrescrito
+Utilize um `^` antes e depois do conteúdo.
+\^^2^\^
+
+## IDs nos Títulos
+`### Título {#custom-id}`
+
+### Link por ID
+`[Texto linkado](#custom-id)`
+
+
+
+Mais aqui:
+* <https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables>
