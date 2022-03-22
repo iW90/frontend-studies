@@ -3,35 +3,35 @@ FORMATAÇÃO MARKDOWN
 
 ## Índice
 
-[Títulos](#titulos)
-[Parágrafos]{#paragrafos}
-    [Indentação]{#indent}
-[Formatação de Texto]{#format}
-    [Negrito]{#b}
-    [Itálico]{#i}
-    [Negrito e Itálico]{#bi}
-    [Rasurado]{#s}
-[Citações](#blockquote)
-    [Citações aninhadas[(#quotenested)
-[Listas](#listas)
-    [Listas ordenadas](#ol)
-    [Listas não-ordenadas](#ul)
-    [Subitens](#subitens)
-    [Lista de Tarefas](#tasks)
-[Blocos de Código](#codeblock)
-    [Code](#code)
-[Linhas horizontais](#hline)
-[Imagens](#img)
-    [Imagens com legenda](#img-legenda)
-[Links](#links)
-    [Link com legenda](#links-legenda)
-    Link por ID](#id-link)
-    [Email e URL](#clickable)
-    [Lista de Referências](#reference)
-[Escape Characters](#escape)
-[Notas de Rodapé](#footnotes)
-[Tabelas](#table)
-    [Alinhando itens da tabela](#align-cell)
+- [Títulos](#titulos)
+- [Parágrafos]{#paragrafos}
+    - [Indentação]{#indent}
+- [Formatação de Texto]{#format}
+    - [Negrito]{#b}
+    - [Itálico]{#i}
+    - [Negrito e Itálico]{#bi}
+    - [Rasurado]{#s}
+- [Citações](#blockquote)
+    - [Citações aninhadas[(#quotenested)
+- [Listas](#listas)
+    - [Listas ordenadas](#ol)
+    - [Listas não-ordenadas](#ul)
+    - [Subitens](#subitens)
+    - [Lista de Tarefas](#tasks)
+- [Blocos de Código](#codeblock)
+    - [Code](#code)
+- [Linhas horizontais](#hline)
+- [Imagens](#img)
+    - [Imagens com legenda](#img-legenda)
+- [Links](#links)
+    - [Link com legenda](#links-legenda)
+    - [Link por ID](#id-link)
+    - [Email e URL](#clickable)
+    - [Lista de Referências](#reference)
+- [Escape Characters](#escape)
+- [Notas de Rodapé](#footnotes)
+- [Tabelas](#table)
+    - [Alinhando itens da tabela](#align-cell)
 
 
 <span id='titulos'/>
