@@ -3,11 +3,39 @@ FORMATAÇÃO MARKDOWN
 
 ## Índice
 
-1. [Títulos](#1)
-2. [Parágrafos]{#2}
-    1. [Indentação]{#2-1}
+[Títulos](#titulos)
+[Parágrafos]{#paragrafos}
+    [Indentação]{#indent}
+[Formatação de Texto]{#format}
+    [Negrito]{#b}
+    [Itálico]{#i}
+    [Negrito e Itálico]{#bi}
+    [Rasurado]{#s}
+[Citações](#blockquote)
+    [Citações aninhadas[(#quotenested)
+[Listas](#listas)
+    [Listas ordenadas](#ol)
+    [Listas não-ordenadas](#ul)
+    [Subitens](#subitens)
+    [Lista de Tarefas](#tasks)
+[Blocos de Código](#codeblock)
+    [Code](#code)
+[Linhas horizontais](#hline)
+[Imagens](#img)
+    [Imagens com legenda](#img-legenda)
+[Links](#links)
+    [Link com legenda](#links-legenda)
+    Link por ID](#id-link)
+    [Email e URL](#clickable)
+    [Lista de Referências](#reference)
+[Escape Characters](#escape)
+[Notas de Rodapé](#footnotes)
+[Tabelas](#table)
+    [Alinhando itens da tabela](#align-cell)
 
-<span id='1'/>
+
+<span id='titulos'/>
+
 ## Títulos
 
 Utiliza-se o símbolo #:
@@ -24,20 +52,31 @@ Utiliza-se o símbolo #:
 * Por convenção e para evitar conflitos, é necessário ter um espaço entre o símbolo # e o texto.
 
 
-## Parágrafos {#2}
+<span id='paragrafos'/>
+
+## Parágrafos
 
 Basta separar o texto por uma linha em branco.
 
 * Não deixe espaços em branco antes do texto.
 
+Para pular mais de uma linha é necessário deixar dois espaços em cada linha em branco.
 
-### Indentação {#2-1}
+
+<span id='paragrafos'/>
+
+### Indentação
 
 Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador aceite HTML, utilizamos `&nbsp;` algumas vezes antes do texto. Caso contrário, não será possível.
 &nbsp;&nbsp;&nbsp;&nbsp;Isso é um parágrafo indentado.
 
 
-## Negrito e Itálico
+<span id='format'/>
+
+## Formatação de Texto
+
+
+<span id='b'/>
 
 ### Negrito 
 
@@ -46,35 +85,55 @@ Coloque o conteúdo entre \*\*:
 Texto em \*\***negrito**\*\*
 
 
+<span id='i'/>
+
 ### Itálico
 
-Coloque o conteúdo entre \*:
+Coloque o conteúdo entre `*`:
 
 Texto em \**itálico*\*
 
 
-### Ambos
+<span id='bi'/>
 
-Coloque o conteúdo entre \*\*\*:
+### Negrito e Itálico
+
+Coloque o conteúdo entre `***`:
 
 Texto em \*\*\****negrito e itálico***\*\*\*
 
 
-## Blockquotes
+<span id='s'/>
+
+### Rasurado
+
+Coloque entre `~~`:
+Texto ~~rasurado~~
+
+
+<span id='blockquote'/>
+
+## Citações
 
 Utilize `>` seguido de espaço no início do texto:
 
 > `> Citação`
 
 
-### Blockquotes aninhados
+<span id='quotenested'/>
+
+### Citações aninhadas
 
 Utilize mais de um `>` (com apenas um espaço após o último) no início do texto:
 
 >> `>> Citação aninhada`
 
 
+<span id='listas'/>
+
 ## Listas
+
+<span id='ol'/>
 
 ### Listas ordenadas
 
@@ -85,6 +144,8 @@ Utilize números seguidos de ponto:
 3. `3. Item 3`
 
 
+<span id='ul'/>
+
 ### Listas não-ordenadas
 
 É possível utilizar `-`, `*` ou `+` no início do texto:
@@ -94,7 +155,9 @@ Utilize números seguidos de ponto:
 - `- Item`
 
 
-### Subitens
+<span id='subitens'/>
+
+#### Subitens
 
 Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou não-ordenada:
 
@@ -106,15 +169,20 @@ Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou nã
     - `- Item`
 
 
-### Listas de Definição
-Utilize `:` antes da definição do termo:
+<span id='task'/>
 
-Primeiro Termo
+### Lista de Tarefas
+Utilize `-[ ]` antes do item, e `-[x]` para um item checked:
 
-: `: Definição do termo`
+- [ ] `-[ ] A`
+- [ ] `-[ ] B`
+- [ ] `-[ ] C`
+- [x] `-[x] D`
 
 
-## Code blocks
+<span id='codeblock'/>
+
+## Blocos de código
 
 Coloque o conteúdo entre \`\`\`:
 
@@ -128,12 +196,16 @@ Coloque o conteúdo entre \`\`\`:
 ```
 
 
+<span id='code'/>
+
 ### Code
 
 Coloque o conteúdo entre `:
 
 ` ``conteúdo`` `
 
+
+<span id='hline'/>
 
 ## Linhas horizontais
 
@@ -142,12 +214,16 @@ Utilize um desses `***`, `---` ou `___`:
 * Por convenção, deixe linhas em branco em cima e embaixo.
 
 
+<span id='img'/>
+
 ## Imagens
 
 Utilize o modelo abaixo:
 
 `![Alt](/link.png)`
 
+
+<span id='img-legenda'/>
 
 ### Imagens com legenda
 
@@ -156,12 +232,16 @@ Utilize o modelo abaixo:
 `![Alt](/link.png "legenda")`
 
 
+<span id='links'/>
+
 ## Links
 
 Utilize o modelo abaixo:
 
 `[Texto Linkado](/link)`
 
+
+<span id='links-legenda'/>
 
 ### Link com legenda
 
@@ -170,6 +250,15 @@ Utilize o modelo abaixo:
 `[Texto Linkado](/link "legenda")`
 
 
+<span id='id-link'/>
+
+### Link por ID
+
+`[Texto linkado](#custom-id)`
+
+
+<span id='clickable'/>
+
 ### Email e URL
 
 Para transformar um email ou URL clicável:
@@ -177,7 +266,9 @@ Para transformar um email ou URL clicável:
 `<link>` ou `<email@email.com>`
 
 
-### Lista de links
+<span id='reference'/>
+
+### Lista de Referências
 
 São duas partes, a primeira é:
 
@@ -191,6 +282,8 @@ Onde `n` é o número que se referencia ao item da lista na segunda parte:
 
 `[2]: link2 "título"`
 
+
+<span id='escape'/>
 
 ## Escape Characters
 
@@ -214,7 +307,9 @@ Exemplos de alguns caracteres para dar escape:
 - \\
 
 
-## Footnotes
+<span id='footnotes'/>
+
+## Notas de Rodapé
 
 Similar à lista de links, mas o link aparecerá sobrescrito¹:
 
@@ -227,18 +322,20 @@ palavra[^bignote]
 [^bignote]: Texto da bignote.
 
 
-## IDs nos Títulos
-
-`### Título {#custom-id}`
-
-
-### Link por ID
-
-`[Texto linkado](#custom-id)`
-
-___
+<span id='table'/>
 
 ## Tabelas
+
+```
+Título1 | Título2
+--------- | ------
+A     | 1
+B    | 2
+C    | 3
+D  | 4
+```
+
+Modelo:
 
 Título1 | Título2
 --------- | ------
@@ -247,7 +344,21 @@ B    | 2
 C    | 3
 D  | 4
 
+
+<span id='align-cell'/>
+
 ### Alinhando itens da tabela
+
+No tracejado horizontal, insira `:` na direção do alinhamento. Para centralizar, basta colocar dos dois lados:
+
+```
+Título1 | Título2
+:---------: | ------:
+A     | 1
+B    | 2
+C    | 3
+D  | 4
+```
 
 Título1 | Título2
 :---------: | ------:
@@ -255,10 +366,3 @@ A     | 1
 B    | 2
 C    | 3
 D  | 4
-
-
-## Task List
-- [ ] A
-- [ ] B
-- [ ] C
-- [x] D
