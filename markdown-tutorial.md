@@ -56,7 +56,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| <input type="checkbox" disabled> A <br><input type="checkbox" checked disabled> B	|
 | Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  ```Conteúdo``` 	|
 | Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
-| Preformatado 	| Comece cada linha com dois espaços ou mais 	| [Veja aqui](#escape-characters)  	|
+| Preformatação 	| Comece cada linha com dois espaços ou mais 	| [Veja aqui](#pre)  	|
 | Linha horizontal 	| \-\-\- ou \_\_\_ ou \=\=\= 	| <hr> 	|
 | Imagens 	| \![Alt\](/link.png) 	| ![github-icon](/imagens/github-icon.png) 	|
 | Imagens com legenda 	| \![Alt\](/link.png "legenda") 	| ![github-icon](/imagens/github-icon.png "Github Icon") 	|
