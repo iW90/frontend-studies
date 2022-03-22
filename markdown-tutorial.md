@@ -1,5 +1,6 @@
-FORMATAÇÃO MARKDOWN
+FORMATAÇÃO MARKDOWN PARA GITHUB
 ===
+
 
 ## Índice
 
@@ -283,13 +284,13 @@ São duas partes, a primeira é:
 
 `[texto][n]`
 
-[texto][2]
-
 Onde `n` é o número que se referencia ao item da lista na segunda parte:
 
 `[n]: link`
 
-[2]: #reference "título"
+[Exemplo][2]
+
+[2]: #reference "Exemplo"
 
 
 <span id='escape'/>
@@ -324,19 +325,19 @@ Exemplos de alguns caracteres para dar escape:
 Título1 | Título2
 --------- | ------
 A     | 1
-B    | 2
-C    | 3
-D  | 4
+B     | 2
+C     | 3
+D     | 4
 ```
 
 Modelo:
 
 Título1 | Título2
 --------- | ------
-A     | 1
-B    | 2
-C    | 3
-D  | 4
+A | 1
+B | 2
+C | 3
+D | 4
 
 
 <span id='align-cell'/>
@@ -350,16 +351,16 @@ Título1 | Título2
 :---------: | ------:
 A     | 1
 B    | 2
-C    | 3
+C   | 3
 D  | 4
 ```
 
 Título1 | Título2
 :---------: | ------:
-A     | 1
+A   | 1
 B    | 2
-C    | 3
-D  | 4
+C   | 3
+D    | 4
 
 
 <span id='emoji'/>
