@@ -28,7 +28,7 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
     - [Link com legenda](#links-legenda)
     - [Link por ID](#id-link)
     - [Email e URL](#clickable)
-    - [Imagem com link](img-link)
+    - [Imagem com link](#img-link)
     - [Lista de Referências](#reference)
 - [Escape Characters](#escape)
 - [Tabelas](#table)
