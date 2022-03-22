@@ -2,7 +2,7 @@ FORMATAÇÃO MARKDOWN
 ===
 
 ## Títulos
-Utiliza-se o símbolo #.
+Utiliza-se o símbolo #:
 
 ```
 # h1
@@ -14,20 +14,6 @@ Utiliza-se o símbolo #.
 ```
 
 * Por convenção e para evitar conflitos, é necessário ter um espaço entre o símbolo # e o texto.
-
-
-### Títulos sublinhados
-```
-    h1
-    ===
-```
-
-e
-
-```
-    h2
-    ---
-```
 
 
 ## Parágrafos
@@ -45,51 +31,56 @@ Utilizar espaços antes do texto pode causar conflitos. Caso seu visualizador ac
 
 ## Comentários
 
-`[ Este texto aparecerá somente no código fonte, pois é um comentário. ]`
+Cria um comentário que aparece somente no código fonte.
+
+```
+[ Conteúdo ]
+```
+[exemplo]
 
 
 ## Negrito e Itálico
 
 ### Negrito 
 
-Coloque o conteúdo entre \*\*.
+Coloque o conteúdo entre \*\*:
 
-Texto em \*\***negrito**\*\*.
+Texto em \*\***negrito**\*\*
 
 
 ### Itálico
 
-Coloque o conteúdo entre \*.
+Coloque o conteúdo entre \*:
 
-Texto em \**itálico*\*.
+Texto em \**itálico*\*
 
 
 ### Ambos
 
-Coloque o conteúdo entre \*\*\*.
+Coloque o conteúdo entre \*\*\*:
 
-Texto em \*\*\****negrito e itálico***\*\*\*.
+Texto em \*\*\****negrito e itálico***\*\*\*
 
 
 ## Blockquotes
 
-Utilize `> ` (com espaço) no início do texto.
+Utilize `>` seguido de espaço no início do texto:
 
-> \> Citação.
+> `> Citação`
 
 
 ### Blockquotes aninhados
 
-Utilize mais de um `>` (com apenas um espaço após o último) no início do texto.
+Utilize mais de um `>` (com apenas um espaço após o último) no início do texto:
 
->> \>\> Citação aninhada.
+>> `>> Citação aninhada`
 
 
 ## Listas
 
 ### Listas ordenadas
 
-Utilize números seguidos de ponto.
+Utilize números seguidos de ponto:
 
 1. `1. Item 1`
 2. `2. Item 2`
@@ -98,7 +89,7 @@ Utilize números seguidos de ponto.
 
 ### Listas não-ordenadas
 
-É possível utilizar `-`, `*` ou `+` no início do texto.
+É possível utilizar `-`, `*` ou `+` no início do texto:
 
 - `- Item`
 - `- Item`
@@ -107,27 +98,26 @@ Utilize números seguidos de ponto.
 
 ### Subitens
 
-Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou não-ordenada.
+Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou não-ordenada:
 
 1. `1. Item 1`
-    1. `1. SubItem 1`
-    2. `2. Item 2`
+    1. `1. SubItem i`
+    2. `2. SubItem ii`
 2. `2. Item 2`
     - `- Item`
     - `- Item`
 
 
 ### Listas de Definição
+Utilize `:` antes da definição do termo:
 
-```
 Primeiro Termo
-: Definição do termo
-```
+: `: Definição do termo`
 
 
 ## Code blocks
 
-Coloque o conteúdo entre \`\`\`.
+Coloque o conteúdo entre \`\`\`:
 
 ```
     ```
@@ -141,14 +131,14 @@ Coloque o conteúdo entre \`\`\`.
 
 ### Code
 
-Coloque o conteúdo entre `.
+Coloque o conteúdo entre `:
 
 \``conteúdo`\`
 
 
 ## Linhas horizontais
 
-Utilize um desses `***`, `---` ou `___`.
+Utilize um desses `***`, `---` ou `___`:
 
 * Por convenção, deixe linhas em branco em cima e embaixo.
 
@@ -198,10 +188,8 @@ São duas partes, a primeira é:
 
 `[texto][2]`
 
-* n é o número que se referencia ao item da lista
+Onde `n` é o número que se referencia ao item da lista na segunda parte:
 
-
-Segunda parte:
 `[n]: link`
 
 `[2]: link2 "título"`
@@ -211,7 +199,7 @@ Segunda parte:
 
 Alguns caracteres são utilizados para comandos. Caso precise utilizá-los literalmente, adicione uma barra invertida antes `(\)`.
 
-Caracteres para dar escape:
+Exemplos de alguns caracteres para dar escape:
 
 - \{\}
 - \(\)
@@ -247,7 +235,7 @@ palavra[^bignote]
 
 Utilize um `^` antes e depois do conteúdo.
 
-\^^2^\^
+\^ ^2
 
 
 ## IDs nos Títulos
@@ -261,6 +249,9 @@ Utilize um `^` antes e depois do conteúdo.
 
 
 
-Mais aqui:
+___
+
+
+## Mais aqui:
 
 * <https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables>
