@@ -4,38 +4,38 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 
 ## Índice
 
-- [Títulos](#titulos)
-- [Parágrafos](#paragrafos)
-    - [Indentação](#indent)
-- [Formatação de Texto](#format)
-    - [Negrito](#b)
-    - [Itálico](#i)
-    - [Negrito e Itálico](#bi)
-    - [Rasurado](#s)
-- [Citações](#blockquote)
-    - [Citações aninhadas](#quotenested)
+- [Títulos](#títulos)
+- [Parágrafos](#parágrafos)
+    - [Indentação](#indentação)
+- [Formatação de Texto](#formatação-de-texto)
+    - [Negrito](#negrito)
+    - [Itálico](#itálico)
+    - [Negrito e Itálico](#negrito-e-itálico)
+    - [Rasurado](#rasurado)
+- [Citações](#citações)
+    - [Citações aninhadas](#citações-aninhadas)
 - [Listas](#listas)
-    - [Listas ordenadas](#ol)
-    - [Listas não-ordenadas](#ul)
+    - [Listas ordenadas](#listas-ordenadas)
+    - [Listas não-ordenadas](#listas-não-ordenadas)
     - [Subitens](#subitens)
-    - [Lista de Tarefas](#tasks)
-- [Blocos de Código](#codeblock)
+    - [Lista de Tarefas](#lista-de-tarefas)
+- [Blocos de Código](#blocos-de-código)
     - [Code](#code)
-- [Preformatação](#pre)
-- [Linhas horizontais](#hline)
-- [Imagens](#img)
-    - [Imagens com legenda](#img-legenda)
+- [Preformatação](#preformatação)
+- [Linhas horizontais](#linhas-horizontais)
+- [Imagens](#imagens)
+    - [Imagens com legenda](#imagens-com-legenda)
 - [Links](#links)
-    - [Link com legenda](#links-legenda)
-    - [Link por ID](#id-link)
-    - [Email e URL](#clickable)
-    - [Imagem com link](#img-link)
-    - [Lista de Referências](#reference)
-- [Escape Characters](#escape)
-- [Tabelas](#table)
-    - [Alinhando itens da tabela](#align-cell)
-- [Emojis](#emoji)
-- [Notas de Rodapé](#footnotes)
+    - [Link com legenda](#link-com-legenda)
+    - [Índices](#índices)
+    - [Email e URL](#email-e-url)
+    - [Imagem com link](#imagem-com-link)
+    - [Lista de Referências](#lista-de-referências)
+- [Escape Characters](#escape-characters)
+- [Tabelas](#tabelas)
+    - [Alinhando itens da tabela](#alinhando-itens-da-tabela)
+- [Emojis](#emojis)
+- [Notas de Rodapé](#notas-de-rodapé)
 
 
 
@@ -56,28 +56,21 @@ FORMATAÇÃO MARKDOWN PARA GITHUB
 | Lista de Tarefas 	| \- [ ] A <br> \- [x] B  	| [Veja aqui](#lista-de-tarefas)	|
 | Bloco de código 	| \`\`\`Conteúdo\`\`\` 	|  [Veja aqui](#blocos-de-código) 	|
 | Código 	| \`Conteúdo\` 	| `Conteúdo` 	|
-| Preformatação 	| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comece cada linha com dois espaços ou mais&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| [Veja aqui](#pre)  	|
+| Preformatação 	| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comece cada linha com dois espaços ou mais&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 	| [Veja aqui](#preformatação)  	|
 | Linha horizontal 	| \-\-\- ou \_\_\_ ou \=\=\= 	| <hr> 	|
 | Imagens 	| \![Alt\](/link.png) 	| ![github-icon](/imagens/github-icon.png) 	|
 | Imagens com legenda 	| \![Alt\](/link.png "legenda") 	| ![github-icon](/imagens/github-icon.png "Github Icon") 	|
 | Links 	| \[Conteúdo\](/link) 	| [Conteúdo](#links) 	|
 | Links com legenda 	| \[Conteúdo\](/link "legenda") 	| [Conteúdo](#link-com-legenda "Conteúdo") 	|
-| Links por ID 	| \[Conteúdo\](\#custom-id) 	| [Conteúdo](#link-por-id) 	|
+| Índice 	| \[Conteúdo\](\#título) 	| [Conteúdo](#índice) 	|
 | Email e URL 	| \<exemplo@email.com\> 	| <exemplo@email.com> 	|
-| Imagem com link 	| \[\![Alt\](/link.png)\](/link) 	|  [![github-icon](/imagens/github-icon.png)](#img-link) 	|
+| Imagem com link 	| \[\![Alt\](/link.png)\](/link) 	|  [![github-icon](/imagens/github-icon.png)](#imagem-com-link) 	|
 | Lista de referência  	| \[Conteúdo]\[1] <br> \[1]: link 	| [Veja aqui](#lista-de-referências)  	|
 | Escape characters  	| Barra invertida antes do símbolo	| [Veja aqui](#escape-characters)  	|
 | Tabelas 	| \| Título 1   \|      Título 2      \|  Título 3 \|<br>\|\----------\|\:\----------\:\|----------\:\|<br>\| col 1 lin 1 \| col 2 lin 1 \| col 3 lin 1 \| | [Veja aqui](#tabelas) |
 | Emojis  	| \:código-do-emoji\: 	| :smile:  	|
 | Notas de rodapé  	| Conteúdo\[^1\]   \[^1\]: Nota 	| [Veja aqui](#notas-de-rodapé)  	|
 
-  
-
-  
-
-  
-
-<span id='titulos'/>
 
 ## Títulos
 
@@ -93,8 +86,6 @@ Utiliza-se o símbolo `# `:
 ```
 
 
-<span id='paragrafos'/>
-
 ## Parágrafos
 
 Basta separar o texto por uma linha em branco.
@@ -104,8 +95,6 @@ Basta separar o texto por uma linha em branco.
 Para pular mais de uma linha é necessário deixar dois espaços em cada linha em branco.
 
 
-<span id='indent'/>
-
 ### Indentação
 
 Utilizar espaços antes do texto pode causar conflitos. Utilizamos `&nbsp;` (equivale a 1 espaço) antes do texto. Para um espaçamento maior, repetimos o comando.
@@ -113,12 +102,8 @@ Utilizar espaços antes do texto pode causar conflitos. Utilizamos `&nbsp;` (equ
 &nbsp;&nbsp;&nbsp;&nbsp;Isso é um parágrafo indentado.
 
 
-<span id='format'/>
-
 ## Formatação de Texto
 
-
-<span id='b'/>
 
 ### Negrito 
 
@@ -127,16 +112,12 @@ Coloque o conteúdo entre `**`:
 Texto em \*\***negrito**\*\*
 
 
-<span id='i'/>
-
 ### Itálico
 
 Coloque o conteúdo entre `*`:
 
 Texto em \**itálico*\*
 
-
-<span id='bi'/>
 
 ### Negrito e Itálico
 
@@ -145,16 +126,12 @@ Coloque o conteúdo entre `***`:
 Texto em \*\*\****negrito e itálico***\*\*\*
 
 
-<span id='s'/>
-
 ### Rasurado
 
 Coloque entre `~~`:
 
 Texto &#126;&#126;~~rasurado~~&#126;&#126;
 
-
-<span id='blockquote'/>
 
 ## Citações
 
@@ -163,8 +140,6 @@ Utilize `>` seguido de espaço no início do texto:
 > `> Citação`
 
 
-<span id='quotenested'/>
-
 ### Citações aninhadas
 
 Utilize mais de um `>` (com apenas um espaço após o último) no início do texto:
@@ -172,11 +147,7 @@ Utilize mais de um `>` (com apenas um espaço após o último) no início do tex
 >> `>> Citação aninhada`
 
 
-<span id='listas'/>
-
 ## Listas
-
-<span id='ol'/>
 
 ### Listas ordenadas
 
@@ -187,8 +158,6 @@ Utilize números seguidos de ponto:
 3. `3. Item 3`
 
 
-<span id='ul'/>
-
 ### Listas não-ordenadas
 
 É possível utilizar `-`, `*` ou `+` no início do texto:
@@ -197,8 +166,6 @@ Utilize números seguidos de ponto:
 - `- Item`
 - `- Item`
 
-
-<span id='subitens'/>
 
 #### Subitens
 
@@ -212,8 +179,6 @@ Utilize 4 espaços ou 1 tabulação e insira o markdown da lista ordenada ou nã
     - `- Item`
 
 
-<span id='tasks'/>
-
 ### Lista de Tarefas
 Utilize `-[ ]` antes do item, e `-[x]` para um item checked:
 
@@ -222,8 +187,6 @@ Utilize `-[ ]` antes do item, e `-[x]` para um item checked:
 - [ ] `-[ ] C`
 - [x] `-[x] D`
 
-
-<span id='codeblock'/>
 
 ## Blocos de código
 
@@ -239,8 +202,6 @@ Coloque o conteúdo entre \`\`\`:
 ```
 
 
-<span id='code'/>
-
 ### Code
 
 Coloque o conteúdo entre ` :
@@ -249,7 +210,6 @@ Coloque o conteúdo entre ` :
 `conteúdo`
 ```
 
-<span id='pre'/>
 
 ## Preformatação
 
@@ -260,8 +220,6 @@ Comece o conteúdo com dois espaços ou mais:
         Interpreta todos os       espaços
 
 
-<span id='hline'/>
-
 ## Linhas horizontais
 
 Utilize um desses `***`, `---` ou `___`:
@@ -270,8 +228,6 @@ ___
 
 * Por convenção, deixe linhas em branco em cima e embaixo.
 
-
-<span id='img'/>
 
 ## Imagens
 
@@ -282,8 +238,6 @@ Utilize o modelo abaixo:
 ![github-icon](/imagens/github-icon.png)
 
 
-<span id='img-legenda'/>
-
 ### Imagens com legenda
 
 Utilize o modelo abaixo:
@@ -293,8 +247,6 @@ Utilize o modelo abaixo:
 ![github-icon](/imagens/github-icon.png "Ícone do Github")
 
 
-<span id='links'/>
-
 ## Links
 
 Utilize o modelo abaixo:
@@ -302,25 +254,19 @@ Utilize o modelo abaixo:
 `[Texto Linkado](/link)`
 
 
-<span id='links-legenda'/>
-
 ### Link com legenda
 
 Utilize o modelo abaixo:
 
-`[Texto Linkado](/link "legenda")`
+`[Texto linkado](/link "legenda")`
 
 
-<span id='id-link'/>
+### Índices
 
-### Link por ID
+`[Título linkado](#título)`
 
-`[Texto linkado](#custom-id)`
+* Utilize o nome dos títulos como pontos de referência na página.
 
-* A ID é inserida com um recurso do HTML: `<span id='custom-id'/>` (sem tag de encerramento).
-
-
-<span id='clickable'/>
 
 ### Email e URL
 
@@ -333,8 +279,6 @@ Para transformar um email ou URL clicável:
 * No caso do email, torna-se equivalente a `<mailto:exemplo@email.com>`. Será encaminhado a alguma plataforma de envio de emails (Outlook, Gmail, etc).
 
 
-<span id='img-link'/>
-
 ### Imagem com link
 
 Utilize o código abaixo
@@ -342,9 +286,6 @@ Utilize o código abaixo
 `[![Alt](/link.png)](/link)`
 
 [![github-icon](/imagens/github-icon.png)](#img-link)
-
-
-<span id='reference'/>
 
 
 ### Lista de Referências
@@ -361,8 +302,6 @@ Onde `n` é o número que se referencia ao item da lista na segunda parte:
 
 [2]: #reference "Exemplo"
 
-
-<span id='escape'/>
 
 ## Escape Characters
 
@@ -386,8 +325,6 @@ Exemplos de alguns caracteres para dar escape:
 - \\
 
 
-<span id='table'/>
-
 ## Tabelas
 
 ```
@@ -408,8 +345,6 @@ B | 2
 C | 3
 D | 4
 
-
-<span id='align-cell'/>
 
 ### Alinhando itens da tabela
 
@@ -432,16 +367,12 @@ C   | 3
 D    | 4
 
 
-<span id='emoji'/>
-
 ## Emojis
 
 Insira o atalho do emoji entre `:`. Os atalhos podem ser encontrados [aqui](https://www.webfx.com/tools/emoji-cheat-sheet/) :smile:
 
 `:smile:`
 
-
-<span id='footnotes'/>
 
 ## Notas de Rodapé
 
