@@ -1,8 +1,10 @@
 # CONFIGURAÇÕES INICIAIS DO GIT
 
+Vale lembrar que quando não aparece nenhuma mensagem ao realizar o comando, ele foi executado corretamente.
+
 ## Conta no Github
 
-Primeiramente é necessário criar uma conta no Github.
+Primeiramente é necessário ter uma conta no Github. Caso ainda não tenha, crie uma.
 
 ## Download
 
@@ -10,7 +12,7 @@ Baixe e instale o Git conforme o sistema operacional que você usa:
 
 [Download Git](https://git-scm.com/downloads "Git Download")
 
-O próprio site fornece instruções sobre como fazer a instalação.
+O próprio site fornece instruções sobre como fazer a instalação quando clicar no seu sistema operacional (Windows, Linux ou Mac).
 
 ## Cadastrando username e e-mail
 
@@ -20,9 +22,9 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 2. No prompt de comando digite:
 
-　`git config --global user.name "Username"`
+`git config --global user.name "Username"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `username` pelo qual é utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `Username` pelo qual é utilizado no Github.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
@@ -30,7 +32,7 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 3. No prompt de comando digite:
 
-　`git config --global user.email "exemplo@exemplo.com"`
+`git config --global user.email "exemplo@exemplo.com"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
 
@@ -42,7 +44,7 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 1. Verifiquemos se já há chaves SSH criadas. No prompt de comando digite:
 
-　`ls -al ~/.ssh`
+`ls -al ~/.ssh`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ A senha possui um desses formatos:
 ```
@@ -55,7 +57,7 @@ id_ed25519.pub
 
 1.1 Caso não exista, vamos gerar uma. No prompt de comando digite:
 
-　`ssh-keygen -t ed25519 -C "exemplo@exemplo.com"`
+`ssh-keygen -t ed25519 -C "exemplo@exemplo.com"`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
 
@@ -68,22 +70,24 @@ As seguintes linhas serão exibidas:
 > Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm):
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Pressione [enter].
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Pressione `Enter`.
 
-Em seguida será pedido para criar uma senha-frase. Como não criaremos uma, apenas pressione [enter] e depois [enter] novamente.
+Em seguida será pedido para criar uma senha-frase. Como não criaremos uma (por praticidade), apenas pressione `Enter` e depois `Enter` novamente:
 
 ```
 > Enter passphrase (empty for no passphrase):
 > Enter same passphrase again:
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Copie, cole em um bloco de notas e salve em um lugar seguro a senha que foi gerada.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Copie, cole em um bloco de notas e salve em um lugar seguro o conteúdo que foi gerado.
 
 ## Adicionando chave SSH ao ssh-agent
 
-1. Vamos adicionar a chave ao -agent. No prompt de comando digite:
+1. Vamos vincular a chave SSH ao ssh-agent. No prompt de comando digite:
 
-　`eval "$(ssh-agent -s)"`
+`eval "$(ssh-agent -s)"`
+
+Aparecerá a seguinte linha:
 
 ```
 > Agent pid 1234
@@ -91,6 +95,34 @@ Em seguida será pedido para criar uma senha-frase. Como não criaremos uma, ape
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ O número do agent pid varia.
 
-1.1 Adicione sua chave SSH privada ao ssh-agent. No prompt de comando digite:
+2. Adicione sua chave SSH privada ao ssh-agent. No prompt de comando digite:
 
-　`ssh-add ~/.ssh/id_ed25519`
+`ssh-add ~/.ssh/id_ed25519`
+
+## Adicionando a chave SSH ao Github
+
+1. Copiaremos a chave pública SSH para a sua área de transferência. No prompt de comando digite:
+
+`clip < ~/.ssh/id_ed25519.pub`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Este comando copia o código para a área de transferência, estando agora disponível no seu `Ctrl+V`.
+
+2. Abra o GitHub no seu navegador.
+
+3. No canto superior direito, clique sobre a miniatura da sua foto e depois em *settings*.
+
+4. Na tela que foi aberta, no menu ao lado esquerdo, clique em **SSH and GPG keys**.
+
+5. Clique em **New SSH key** (Nova chave SSH).
+
+6. No campo **"Title"** (Título), adicione uma etiqueta descritiva para a nova chave ("Notebook Pessoal", "PC do Trabalho", ou algo que identifique a máquina que está usando).
+
+7. Cole sua chave no campo **"Key"** (Chave). Se o passo 1 foi feito corretamente, basta utilizar o `Ctrl+V`.
+
+8. Clique em **Add SSH key** (Adicionar chave SSH).
+
+9. Se solicitado, confirme sua senha do GitHub.
+
+____
+
+Prontinho, seu Git e Github estão devidamente configurados e prontos para serem usados.
