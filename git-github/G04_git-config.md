@@ -4,7 +4,7 @@ Vale lembrar que quando não aparece nenhuma mensagem ao realizar o comando, ele
 
 ## Conta no Github
 
-Primeiramente é necessário ter uma conta no Github. Caso ainda não tenha, crie uma.
+Primeiramente é necessário ter uma conta no Github. Caso ainda não tenha, veja como criar uma [aqui](https://github.com/Dindinha/frontend-studies/blob/main/git-github/G03_github-account.md "Github Account").
 
 ## Download
 
