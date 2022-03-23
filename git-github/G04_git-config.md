@@ -24,7 +24,7 @@ O próprio site fornece instruções sobre como fazer a instalação quando clic
 
 `git config --global user.name "Username"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `Username` pelo qual é utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `Username` pelo username utilizado no seu Github.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
@@ -34,7 +34,7 @@ O próprio site fornece instruções sobre como fazer a instalação quando clic
 
 `git config --global user.email "exemplo@exemplo.com"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no seu Github.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
@@ -46,16 +46,17 @@ O próprio site fornece instruções sobre como fazer a instalação quando clic
 
 `ls -al ~/.ssh`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ A senha possui um desses formatos:
+A senha possui um desses formatos:
+
 ```
 id_rsa.pub
 id_ecdsa.pub
 id_ed25519.pub
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Se você receber um erro que ~/. sh não existe, significa que você não tem um par de chaves SSH.
+Caso você apareça um erro dizendo que o `~/. sh` não existe, significa que você ainda não tem um par de chaves SSH.
 
-1.1 Caso não exista, vamos gerar uma. No prompt de comando digite:
+1.1 Se não houver chaves SSH, vamos gerar uma. No prompt de comando digite:
 
 `ssh-keygen -t ed25519 -C "exemplo@exemplo.com"`
 
