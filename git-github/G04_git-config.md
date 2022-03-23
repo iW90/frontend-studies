@@ -8,7 +8,7 @@ Primeiramente é necessário criar uma conta no Github.
 
 Baixe e instale o Git conforme o sistema operacional que você usa:
 
-[Git](https://git-scm.com/downloads "Git Download")
+[Download Git](https://git-scm.com/downloads "Git Download")
 
 O próprio site fornece instruções sobre como fazer a instalação.
 
@@ -16,15 +16,15 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 1. No Windows, abra o **Git Bash** (foi instalado junto com o Git), ou abra o **terminal** no Linux.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ **Importante:** Os comandos `Ctrl+C` e `Ctrl+V` não funcionam no terminal. É necessário clicar com o lado direito do mouse e depois em `Copy` (para copiar) ou `Paste` (para colar) quando necessário.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ **Importante:** Os comandos `Ctrl+C` e `Ctrl+V` não funcionam no prompt (terminal). É necessário clicar com o lado direito do mouse e depois em `Copy` (para copiar) ou `Paste` (para colar) quando necessário.
 
 2. No prompt de comando digite:
 
 　`git config --global user.name "Username"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `username` pelo qual é utilizado no Github.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ O username (não o nome) deve ser o mesmo utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Para verificar se foi inserido corretamente, digite: `git config --global user.name`
 
@@ -32,9 +32,9 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 　`git config --global user.email "exemplo@exemplo.com"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ O email deve ser o mesmo utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Para verificar se foi inserido corretamente, digite: `git config --global user.email`
 
@@ -44,8 +44,6 @@ O próprio site fornece instruções sobre como fazer a instalação.
 
 　`ls -al ~/.ssh`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Se você receber um erro que ~/. sh não existe, significa que você não tem um par de chaves SSH.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ A senha possui um desses formatos:
 ```
 id_rsa.pub
@@ -53,25 +51,31 @@ id_ecdsa.pub
 id_ed25519.pub
 ```
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Se você receber um erro que ~/. sh não existe, significa que você não tem um par de chaves SSH.
+
 1.1 Caso não exista, vamos gerar uma. No prompt de comando digite:
 
 　`ssh-keygen -t ed25519 -C "exemplo@exemplo.com"`
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ O email deve ser o mesmo utilizado no Github.
-
 
 As seguintes linhas serão exibidas: 
 
 ```
 > Generating public/private algorithm key pair.
 > Enter a file in which to save the key (/c/Users/you/.ssh/id_algorithm):
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Pressione [enter].
+
+Em seguida será pedido para criar uma senha-frase. Como não criaremos uma, apenas pressione [enter] e depois [enter] novamente.
+
+```
 > Enter passphrase (empty for no passphrase):
 > Enter same passphrase again:
 ```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não criaremos uma senha-frase, portanto apenas pressione [enter] três vezes.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Copie, cole em um bloco de notas e salve em um lugar seguro a senha que foi gerada.
 
