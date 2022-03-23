@@ -7,7 +7,7 @@ Se você está procurando os comandos específicos do git, veja aqui.
 
 * Possuem flags, que são complementos que modificam, acrescentam ou formatam o comando.
 * *Silence is success*: Se não houver resposta, significa sucesso.
-* Prompt e Terminal são sinônimos.
+* Prompt e Terminal são sinônimos aqui.
 
 
 ## Lista de atalhos

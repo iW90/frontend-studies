@@ -1,6 +1,8 @@
 # CONFIGURAÇÕES INICIAIS DO GIT
 
-Vale lembrar que quando não aparece nenhuma mensagem ao realizar o comando, ele foi executado corretamente.
+* Vale lembrar que quando não aparece nenhuma mensagem ao realizar o comando, ele foi executado corretamente.
+
+* Prompt e Terminal são sinônimos aqui.
 
 ## Conta no Github
 
@@ -60,7 +62,7 @@ Caso você apareça um erro dizendo que o `~/. sh` não existe, significa que vo
 
 `ssh-keygen -t ed25519 -C "exemplo@exemplo.com"`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no Github.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Substitua `exemplo@exemplo.com` pelo mesmo email que é utilizado no seu Github.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Não remova as aspas.
 
@@ -106,7 +108,7 @@ Aparecerá a seguinte linha:
 
 `clip < ~/.ssh/id_ed25519.pub`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Este comando copia o código para a área de transferência, estando agora disponível no seu `Ctrl+V`.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ Este comando copia o código para a área de transferência, tornando-a disponível no seu `Ctrl+V`.
 
 2. Abra o GitHub no seu navegador.
 
