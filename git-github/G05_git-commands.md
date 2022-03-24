@@ -64,7 +64,7 @@ Comando:
 
 `git clone git@github.com:USER-NAME/REPOSITORY-NAME.git`
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ No lugar de `git@github.com:USER-NAME/REPOSITORY-NAME.git` insira o link SSH do seu repositório.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ No lugar de `git@github.com:USER-NAME/REPOSITORY-NAME.git` insira o link SSH do repositório a ser clonado.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![SSH](/imagens/clone-repo.png "Link SSH")
 
