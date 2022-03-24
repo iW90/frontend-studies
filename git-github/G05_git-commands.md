@@ -74,7 +74,7 @@ Comando:
 
 ## Unindo branches locais com merge
 
-Entre na branch parent, neste caso a principal:
+Entre na branch parent (neste exemplo a principal):
 
 `git checkout main`
 
