@@ -43,8 +43,6 @@ Sintaxe | O que faz
 `git branch -d nome-da-branch` | deleta uma branch
 `git merge nome-da-branch` | une a branch informada à branch parent
 `git merge --abort` | interrompe o merge caso apresente algum erro
-­
-
 
 ## Novo repositório
 
