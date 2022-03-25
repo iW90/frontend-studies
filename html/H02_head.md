@@ -33,6 +33,8 @@ São associados ao conteúdo do atributo content. Valores de `name`:
 
 * **author:** Autor do documento;
 
+* **keywords:** Palavras-chave, tags, palavras em buscas;
+
 * **description:** Contém uma descrição do conteúdo da página. Alguns browsers usam este meta como descrição padrão da página quando é marcada.
 
 * **creator:** Criador do documento, podendo ser uma instituição. Se há mais de uma, muitos elementos `<meta>` podem ser usados;
